@@ -1,0 +1,692 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do processor_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/vishrant/Downloads/EE\ 337/pronsm/pronsm {C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/reg_file.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# vlog -vlog01compat -work work +incdir+C:/Users/vishrant/Downloads/EE\ 337/pronsm/pronsm {C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/register.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# vlog -vlog01compat -work work +incdir+C:/Users/vishrant/Downloads/EE\ 337/pronsm/pronsm {C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/processor.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+# vlog -vlog01compat -work work +incdir+C:/Users/vishrant/Downloads/EE\ 337/pronsm/pronsm {C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux4_to_1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux4_to_1
+# 
+# Top level modules:
+# 	mux4_to_1
+# vlog -vlog01compat -work work +incdir+C:/Users/vishrant/Downloads/EE\ 337/pronsm/pronsm {C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux2_to_1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux2_to_1
+# 
+# Top level modules:
+# 	mux2_to_1
+# vlog -vlog01compat -work work +incdir+C:/Users/vishrant/Downloads/EE\ 337/pronsm/pronsm {C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/memory.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# vlog -vlog01compat -work work +incdir+C:/Users/vishrant/Downloads/EE\ 337/pronsm/pronsm {C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/datapath.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# vlog -vlog01compat -work work +incdir+C:/Users/vishrant/Downloads/EE\ 337/pronsm/pronsm {C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/controller.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module controller
+# ** Warning: C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/controller.v(774): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/controller.v(776): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	controller
+# vlog -vlog01compat -work work +incdir+C:/Users/vishrant/Downloads/EE\ 337/pronsm/pronsm {C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/alu_risc.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu_risc
+# 
+# Top level modules:
+# 	alu_risc
+# vlog -vlog01compat -work work +incdir+C:/Users/vishrant/Downloads/EE\ 337/pronsm/pronsm {C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/Priority_enc.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Priority_enc
+# ** Warning: C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/Priority_enc.v(13): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/Priority_enc.v(29): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	Priority_enc
+# 
+vsim work.processor
+# vsim work.processor 
+# Loading work.processor
+# Loading work.controller
+# Loading work.datapath
+# Loading work.alu_risc
+# Loading work.reg_file
+# Loading work.register
+# Loading work.memory
+# Loading work.mux2_to_1
+# Loading work.mux4_to_1
+# Loading work.Priority_enc
+# ** Warning: (vsim-3015) C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/datapath.v(116): [PCDPC] - Port size (16 or 16) does not match connection size (6) for port 'result'. The port definition is at: C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux2_to_1.v(1).
+# 
+#         Region: /processor/d/mux_mem_addr
+# ** Warning: (vsim-3015) C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/datapath.v(117): [PCDPC] - Port size (16 or 16) does not match connection size (3) for port 'input_a'. The port definition is at: C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux4_to_1.v(1).
+# 
+#         Region: /processor/d/mux_pc
+# ** Warning: (vsim-3015) C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/datapath.v(117): [PCDPC] - Port size (16 or 16) does not match connection size (3) for port 'input_b'. The port definition is at: C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux4_to_1.v(1).
+# 
+#         Region: /processor/d/mux_pc
+# ** Warning: (vsim-3015) C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/datapath.v(117): [PCDPC] - Port size (16 or 16) does not match connection size (3) for port 'input_c'. The port definition is at: C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux4_to_1.v(1).
+# 
+#         Region: /processor/d/mux_pc
+# ** Warning: (vsim-3015) C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/datapath.v(117): [PCDPC] - Port size (16 or 16) does not match connection size (3) for port 'input_d'. The port definition is at: C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux4_to_1.v(1).
+# 
+#         Region: /processor/d/mux_pc
+# ** Warning: (vsim-3015) C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/datapath.v(117): [PCDPC] - Port size (16 or 16) does not match connection size (3) for port 'result'. The port definition is at: C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux4_to_1.v(1).
+# 
+#         Region: /processor/d/mux_pc
+# ** Warning: (vsim-3015) C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/datapath.v(118): [PCDPC] - Port size (16 or 16) does not match connection size (3) for port 'input_a'. The port definition is at: C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux4_to_1.v(1).
+# 
+#         Region: /processor/d/mux_B
+# ** Warning: (vsim-3015) C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/datapath.v(118): [PCDPC] - Port size (16 or 16) does not match connection size (3) for port 'input_b'. The port definition is at: C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux4_to_1.v(1).
+# 
+#         Region: /processor/d/mux_B
+# ** Warning: (vsim-3015) C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/datapath.v(118): [PCDPC] - Port size (16 or 16) does not match connection size (3) for port 'input_c'. The port definition is at: C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux4_to_1.v(1).
+# 
+#         Region: /processor/d/mux_B
+# ** Warning: (vsim-3015) C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/datapath.v(118): [PCDPC] - Port size (16 or 16) does not match connection size (3) for port 'result'. The port definition is at: C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux4_to_1.v(1).
+# 
+#         Region: /processor/d/mux_B
+# ** Warning: (vsim-3015) C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/datapath.v(119): [PCDPC] - Port size (16 or 16) does not match connection size (3) for port 'input_a'. The port definition is at: C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux4_to_1.v(1).
+# 
+#         Region: /processor/d/mux_pcw
+# ** Warning: (vsim-3015) C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/datapath.v(119): [PCDPC] - Port size (16 or 16) does not match connection size (3) for port 'input_b'. The port definition is at: C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux4_to_1.v(1).
+# 
+#         Region: /processor/d/mux_pcw
+# ** Warning: (vsim-3015) C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/datapath.v(119): [PCDPC] - Port size (16 or 16) does not match connection size (3) for port 'input_c'. The port definition is at: C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux4_to_1.v(1).
+# 
+#         Region: /processor/d/mux_pcw
+# ** Warning: (vsim-3015) C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/datapath.v(119): [PCDPC] - Port size (16 or 16) does not match connection size (3) for port 'input_d'. The port definition is at: C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux4_to_1.v(1).
+# 
+#         Region: /processor/d/mux_pcw
+# ** Warning: (vsim-3015) C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/datapath.v(119): [PCDPC] - Port size (16 or 16) does not match connection size (3) for port 'result'. The port definition is at: C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux4_to_1.v(1).
+# 
+#         Region: /processor/d/mux_pcw
+# ** Warning: (vsim-3015) C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/datapath.v(120): [PCDPC] - Port size (16 or 16) does not match connection size (3) for port 'input_a'. The port definition is at: C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux2_to_1.v(1).
+# 
+#         Region: /processor/d/mux_adi
+# ** Warning: (vsim-3015) C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/datapath.v(120): [PCDPC] - Port size (16 or 16) does not match connection size (3) for port 'input_b'. The port definition is at: C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux2_to_1.v(1).
+# 
+#         Region: /processor/d/mux_adi
+# ** Warning: (vsim-3015) C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/datapath.v(120): [PCDPC] - Port size (16 or 16) does not match connection size (3) for port 'result'. The port definition is at: C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux2_to_1.v(1).
+# 
+#         Region: /processor/d/mux_adi
+add wave sim:/processor/*
+add wave  \
+sim:/processor/d/file/regs_file
+add wave  \
+sim:/processor/d/Mem/Memory
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/reset_pin 1 0
+run
+run
+run
+force -freeze sim:/processor/reset_pin 0 0
+run
+run
+run
+run
+run
+run
+
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

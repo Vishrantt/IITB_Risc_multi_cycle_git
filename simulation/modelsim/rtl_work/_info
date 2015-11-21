@@ -1,0 +1,206 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\vishrant\Downloads\EE 337\pronsm\pronsm\simulation\modelsim
+valu_risc
+IZb:WYIb@`WNV:GeQ;aH`B1
+VG[O4^bi6OI<mZEdY^f_g80
+Z1 dC:\Users\vishrant\Downloads\EE 337\pronsm\pronsm\simulation\modelsim
+w1446541221
+8C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/alu_risc.v
+FC:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/alu_risc.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work {+incdir+C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm} -O0
+!i10b 1
+!s100 YMG8i<hJ85Q5XU`7:cFTm2
+!s85 0
+!s108 1446542331.302000
+!s107 C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/alu_risc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm|C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/alu_risc.v|
+!s101 -O0
+vcontroller
+IcI4o7T`i`6FP41I`0YChj3
+VA<6PDcM2gOkRc04Q];3RA0
+R1
+w1446540924
+8C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/controller.v
+FC:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/controller.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 >lk[JOaReH:3me700Sg942
+!s85 0
+!s108 1446542331.146000
+!s107 C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm|C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/controller.v|
+!s101 -O0
+vdatapath
+IJ^TM3HiaJS@bh?Mch69X?1
+V04i1j^UJM5_b9ZMPF6`fh0
+R1
+w1446540920
+8C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/datapath.v
+FC:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/datapath.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 `W1K0<IjkAaenYbV@G_gH1
+!s85 0
+!s108 1446542331.036000
+!s107 C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/datapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm|C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/datapath.v|
+!s101 -O0
+vmemory
+IDb^m`_SW2Yan9gIW1ccl;1
+V;08QVVL=>`Ao<G7P@]XFP2
+R1
+w1446542296
+8C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/memory.v
+FC:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/memory.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 3f4OX>aZloAlb_TjW=^>>0
+!s85 0
+!s108 1446542330.912000
+!s107 C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm|C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/memory.v|
+!s101 -O0
+vmux2_to_1
+IX^9lYMn27M1;RhEWdmcaa3
+V8V=1V=QczYPPFS3lGMXze1
+R1
+w1445430525
+8C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux2_to_1.v
+FC:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux2_to_1.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 `LK?b:VGBAj4O>_;g0ZeA0
+!s85 0
+!s108 1446542330.802000
+!s107 C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux2_to_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm|C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux2_to_1.v|
+!s101 -O0
+vmux4_to_1
+I8O?KRT@5HiPY7hf_0l:I03
+VkNoDC6]KMZAX7G[G>VBF60
+R1
+w1445430520
+8C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux4_to_1.v
+FC:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux4_to_1.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 Y6LRiUBd::4_R`_AVcR9W3
+!s85 0
+!s108 1446542330.756000
+!s107 C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux4_to_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm|C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/mux4_to_1.v|
+!s101 -O0
+vPriority_enc
+!i10b 1
+!s100 ECk2FaW4A<IEO:mzmoo5=3
+IC;EW;SNE6?YT@icglT68h2
+Va0;=k3ndmafX2lU]:Ri`z0
+R1
+w1446299133
+8C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/Priority_enc.v
+FC:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/Priority_enc.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1446542331.411000
+!s107 C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/Priority_enc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm|C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/Priority_enc.v|
+!s101 -O0
+R3
+R4
+n@priority_enc
+vprocessor
+I7a3h0[@Id[F]D?LnBaLD41
+V?U?;^ATGlC6n2L33gczZ12
+R1
+w1446454316
+8C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/processor.v
+FC:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/processor.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 IJk3oH6dTKON<8Q[Xm5Ud2
+!s85 0
+!s108 1446542330.615000
+!s107 C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/processor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm|C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/processor.v|
+!s101 -O0
+vreg_file
+IQChD^@dRn>V6[YfRMklU92
+VDR5I5]G4:N>b9ZT8JlJ900
+R1
+w1446458453
+8C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/reg_file.v
+FC:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/reg_file.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 jI?nWOW[oaK[4AjN5Aef`1
+!s85 0
+!s108 1446542330.397000
+!s107 C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/reg_file.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm|C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/reg_file.v|
+!s101 -O0
+vregister
+IoiReYIG5;oM5D=fDlQ0zE1
+VT`VzHWK^4PULTEz3j3f9g1
+R1
+w1445855574
+8C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/register.v
+FC:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/register.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 nBXkQzDdeCE<0Z_<Bm8Kh3
+!s85 0
+!s108 1446542330.506000
+!s107 C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/register.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm|C:/Users/vishrant/Downloads/EE 337/pronsm/pronsm/register.v|
+!s101 -O0
